@@ -1,0 +1,124 @@
+#warning-msg {
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+  }
+  
+  #success-msg {
+    color: green;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+  }
+  
+  .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .form-element {
+    width: 90%;
+    background: #000;
+    border-radius: 5px;
+    padding: 20px 60px 30px 40px;
+  }
+  
+  .form-element .elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .elements .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .elements table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .elements table tr td {
+    padding: 10px 15px;
+  }
+  
+  .elements table tr td label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .input-box {
+    height: 40px;
+    width: 300px;
+    margin: 15px 0;
+  }
+  .input-box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+    resize: none;
+  }
+  
+  select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+    }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .btn input[type="submit"] {
+    color: #000;
+    font-size: 18px;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: #f8731a;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .btn input[type="submit"]:hover {
+    background: #fff;
+    color: #f8731a;
+  }
+  
+  .redirect {
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #redirect-btn {
+    color: #fff;
+  }
+  
+  #redirect-btn:hover {
+    color: #f8731a;
+    text-decoration: underline;
+  }
+  
